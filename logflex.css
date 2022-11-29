@@ -1,0 +1,101 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+ 
+ 
+body{
+    background-color: #fd4e4e;
+    display: flex;
+    background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgifimage.net%2Fwp-content%2Fuploads%2F2018%2F11%2Fmatrix-rain-gif.gif&f=1&nofb=1&ipt=ca8207620542c58dcc2768b79407acaf004886ca68b0cd530c04ac6a1cc82916&ipo=images);
+}
+/* Container */
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 15px 15px 20px black;
+}
+/* Login Form */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+
+    background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FgNzDiRiZS3SXS%2F200.gif&f=1&nofb=1&ipt=bf6d295b2b92d2f9373e59d2a8aa2803786b6270cb363e44be10697bf912e712&ipo=images);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+.form h2{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    border: 15px solid black;
+    outline: none;
+    border-radius: 20px;
+   
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+ 
+ 
+ 
+#submit:hover{
+    cursor: pointer;
+    background-color: #750000;
+   
+}
+.form a{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    display: flex;
+   
+ 
+}
+.form a:hover{
+    color: #fd4e4e;
+    
+   
+}
+ 
+/* Right Side */
+.side{
+    background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette4.wikia.nocookie.net%2Fdarkmetal%2Fimages%2Fa%2Faa%2FMatrix-title.gif%2Frevision%2Flatest%3Fcb%3D20150727032841&f=1&nofb=1&ipt=b93b722caf25505fd4ab0b1ca72eadcbd27f43b53fb09520f95053482f1acd5a&ipo=images);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #750000;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+   
+}
+.side img{
+    width: 425px;
+    height: 425px;
+    margin-top: 75px;
+    
+}
