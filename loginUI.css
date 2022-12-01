@@ -33,6 +33,8 @@ body{
     background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FgNzDiRiZS3SXS%2F200.gif&f=1&nofb=1&ipt=bf6d295b2b92d2f9373e59d2a8aa2803786b6270cb363e44be10697bf912e712&ipo=images);
     background-repeat: no-repeat;
     background-size: 100% 100% ;
+    opacity:3;
+
 }
 .form h2{
     font-size: 3rem;
@@ -46,6 +48,12 @@ body{
     outline: none;
     border-radius: 20px;
    
+}
+
+.forgot{
+    width: 200px;
+    margin-left: 20px
+    margin-right: 20px;
 }
 #submit{
     padding: 12px 30px;
@@ -99,3 +107,4 @@ body{
     margin-top: 75px;
     
 }
+
